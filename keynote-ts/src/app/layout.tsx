@@ -19,11 +19,38 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - Limitless Life with God',
+    default: 'Limitless Life with God - Virtual Event with Graham Cooke & Dionne',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    "Join us for Limitless Life with God, a 2-day virtual event with Graham Cooke & Dionne. Experience transformative teaching, interactive sessions, and practical application to live from your true identity in Christ. March 7-8, 2025.",
+  openGraph: {
+    title: 'Limitless Life with God - Virtual Event',
+    description: "Join us for Limitless Life with God, a 2-day virtual event with Graham Cooke & Dionne. Experience transformative teaching, interactive sessions, and practical application to live from your true identity in Christ. March 7-8, 2025.",
+    url: 'https://deals.brilliantperspectives.com/order-form1749742211523',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Limitless Life with God Event Banner',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Limitless Life with God - Virtual Event',
+    description: "Join us for Limitless Life with God, a 2-day virtual event with Graham Cooke & Dionne. Experience transformative teaching, interactive sessions, and practical application to live from your true identity in Christ. March 7-8, 2025.",
+    images: ['/og-image.jpg'],
+    site: '@brilliantperspectives',
+    creator: '@brilliantperspectives',
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({
@@ -40,6 +67,7 @@ export default function RootLayout({
         dmSans.variable,
       )}
     >
+      <head />
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">{children}</div>
       </body>
