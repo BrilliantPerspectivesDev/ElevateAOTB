@@ -1,0 +1,148 @@
+{
+  "announcementBanner": {
+    "message": "Free registration open - Limited seating available!",
+    "cta": "Register Free"
+  },
+  "hero": {
+    "preHeadline": "Everything you need to live limitlessly in Christ",
+    "headline": "Transform your walk with God",
+    "dateLocation": "June 19–21, 2025 · Virtual · 90 Min Daily",
+    "intro": "Everything you need to live limitlessly in Christ",
+    "countdownDate": "2025-06-19T09:00:00",
+    "cta": "Register Free - Transform Your Walk"
+  },
+  "salesLetter": {
+    "headline": "What if you had permission to stop fixing yourself?",
+    "paragraphs": [
+      "You've been told spiritual growth means working harder. What if that's backwards? What if you need permission to BE who you already are in Christ?",
+      "The old man is dead (2 Cor 5:17). You don't have a sin problem—you have a sin habit. Habits change when you live from your new nature, not fix your old.",
+      "This isn't about trying harder. It's about permission to live limitlessly from who you already are. Join thousands discovering this truth."
+    ],
+    "cta": "Join the Permission Revolution"
+  },
+  "eventDays": [
+    {
+      "day": "Day 1",
+      "theme": "Permission to BE Your New Self",
+      "description": "Graham lays theological foundation. Discover why 'trying harder' keeps you stuck and get permission to stop working on the old man."
+    },
+    {
+      "day": "Day 2",
+      "theme": "Permission to LIVE Your New Life",
+      "description": "Dionne reveals practical frameworks for Kingdom living. Learn to stay peaceful in chaos and receive God's goodness without guilt."
+    },
+    {
+      "day": "Day 3",
+      "theme": "Permission to LEARN Your New Way",
+      "description": "Discover relational learning that creates lasting change. Get clear next steps for your continued transformation journey."
+    }
+  ],
+  "features": {
+    "headline": "Everything you need to live limitlessly in Christ",
+    "subheading": "Transform your walk with God",
+    "description": "Complete introduction to permission-based living with frameworks, community, and ongoing support for lasting transformation.",
+    "items": [
+      {
+        "title": "Theological Foundation",
+        "description": "Graham's breakthrough teaching on New Creation reality that demolishes performance Christianity forever."
+      },
+      {
+        "title": "Practical Implementation",
+        "description": "Dionne's proven frameworks for Kingdom living, including Upstairs/Downstairs perspective and working routines."
+      },
+      {
+        "title": "Community Connection",
+        "description": "Join thousands in the Brilliant Movement. Interactive exercises, breakout sessions, ongoing support."
+      },
+      {
+        "title": "Systematic Growth Path",
+        "description": "Clear next steps including small groups, monthly gatherings, and systematic transformation programs."
+      }
+    ],
+    "cta": "Access All Transformation Tools"
+  },
+  "speakers": {
+    "headline": "Meet Your Transformation Guides",
+    "subheading": "Proven leaders who've walked from performance to permission",
+    "people": [
+      {
+        "name": "Graham Cooke",
+        "role": "Author & Prophetic Voice",
+        "bio": "For decades, Graham has helped Christians discover living WITH God vs. about God. His New Creation revelation transforms performance into partnership.",
+        "image": "graham-cooke-headshot.jpg"
+      },
+      {
+        "name": "Dionne van Zyl",
+        "role": "CEO & Leadership Expert",
+        "bio": "Dionne bridges the gap between identity and lifestyle. His systematic approach has helped thousands live from their new nature daily.",
+        "image": "dionne-van-zyl-headshot.jpg"
+      },
+      {
+        "name": "Ray Higdon",
+        "role": "Event Host",
+        "bio": "Ray creates transformational experiences with heart for helping people discover their true identity in Christ and breakthrough moments.",
+        "image": "ray-higdon-headshot.jpg"
+      }
+    ],
+    "cta": "Learn From These Proven Leaders"
+  },
+  "ctaSection": {
+    "headline": "Your new life is waiting. Stop trying to earn it.",
+    "description": "You've tried harder. You've done more. What if it's time to try permission instead? June 19-21 could change everything.",
+    "cta": "Yes! I'm Ready for Permission-Based Living"
+  },
+  "testimonials": {
+    "smallHeading": "Testimonials",
+    "mainHeading": "Thousands discovered the freedom of permission-based living",
+    "items": [
+      {
+        "quote": "First time I felt permission to BE who God says I am instead of trying to become worthy. The relief was immediate, transformation ongoing.",
+        "name": "Sarah M.",
+        "handle": "BSOL Graduate",
+        "image": "sarah-m-avatar.jpg"
+      },
+      {
+        "quote": "Graham and Dionne gave me a new way to live. The permission framework revolutionized my daily walk with God.",
+        "name": "Michael T.",
+        "handle": "Movement Member",
+        "image": "michael-t-avatar.jpg"
+      },
+      {
+        "quote": "Came exhausted from performance Christianity, left with permission to live from rest. This weekend literally changed my life.",
+        "name": "Jennifer L.",
+        "handle": "Small Group Leader",
+        "image": "jennifer-l-avatar.jpg"
+      },
+      {
+        "quote": "After 20 years trying to be better, I learned to BE the Christian God made me. This is the breakthrough I'd been searching for.",
+        "name": "David R.",
+        "handle": "Ministry Leader",
+        "image": "david-r-avatar.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What can I expect from this event?",
+        "answer": "Two transformative days of teaching, interactive sessions, and practical application. You'll learn how to experience God's presence naturally and live from your true identity in Christ."
+      },
+      {
+        "question": "Is this just another online event?",
+        "answer": "Not at all! You'll get a front row seat in this immersive and interactive experience. Forget about passive webinars - LIMITLESS uses cutting-edge technology to create a truly engaging environment. You'll connect with like-minded believers, experience transformational teaching, and participate in dynamic interactions with Graham and Dionne live from our professional broadcast studio. This is an intimate, interactive experience designed to help you encounter God in a fresh way."
+      },
+      {
+        "question": "How do I access the event?",
+        "answer": "Once registered, you'll receive a link to our simple online portal where you'll find everything you need. The portal gives you access to both main sessions, interactive elements, and any additional resources shared during the event. We've made the technical side seamless so you can focus entirely on your experience with God."
+      },
+      {
+        "question": "What are the event times?",
+        "answer": "The event runs March 7th & 8th, from 10:00 AM to 11:30 AM PST each day. We recommend joining a few minutes early to get settled."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© 2025 Brilliant Perspectives. Building a movement of people who know their true identity in Christ."
+  }
+} 
