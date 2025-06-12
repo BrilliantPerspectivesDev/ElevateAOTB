@@ -50,7 +50,7 @@ export function Features() {
           </dl>
         </div>
         <div className="flex justify-center mt-12">
-          <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523">{features.cta}</GradientCTAButton>
+          <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523" />
         </div>
       </Container>
     </div>

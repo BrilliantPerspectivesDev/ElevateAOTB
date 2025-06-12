@@ -16,7 +16,7 @@ export function SalesLetter() {
         {sales.paragraphs.map((p, i) => (
           <p key={i} className="mb-6 text-lg text-charcoal">{p}</p>
         ))}
-        <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523">{sales.cta}</GradientCTAButton>
+        <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523" />
       </div>
     </section>
   )
