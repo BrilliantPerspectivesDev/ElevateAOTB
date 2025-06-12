@@ -6,10 +6,9 @@ import { clsx } from 'clsx'
 interface GradientCTAButtonProps {
   href: string
   className?: string
-  children?: React.ReactNode
 }
 
-export function GradientCTAButton({ href, className, children }: GradientCTAButtonProps) {
+export function GradientCTAButton({ href, className }: GradientCTAButtonProps) {
   return (
     <Link
       href={href}
@@ -18,7 +17,7 @@ export function GradientCTAButton({ href, className, children }: GradientCTAButt
         className
       )}
     >
-      <span>{children || 'Register Now'}</span>
+      <span>Secure my seat Today</span>
       <span className="block text-xs font-normal mt-1 text-white opacity-80">June 19–21, 2025 · 90 Min Daily · Virtual</span>
     </Link>
   )

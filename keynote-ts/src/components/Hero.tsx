@@ -41,10 +41,10 @@ export function Hero() {
             <div className="mt-8 space-y-6 font-display text-2xl tracking-tight text-sand">
               <p>{hero.intro}</p>
             </div>
-            <CountdownTimer targetDate={hero.countdownDate} />
             <div className="mt-6">
-              <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523">{hero.cta}</GradientCTAButton>
+              <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523" />
             </div>
+            <CountdownTimer targetDate={hero.countdownDate} />
           </div>
         </Container>
       </div>
