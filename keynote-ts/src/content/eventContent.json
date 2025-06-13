@@ -25,52 +25,21 @@
   "eventDays": [
     {
       "day": "Day 1",
-      "theme": "Permission to Stop Fixing Yourself",
-      "description": "You have permission to stop trying to fix who you were and start being who you are in Christ. Discover why your true identity in Christ gives you permission to stop the improvement project."
+      "theme": "Permission to Be Your New Self",
+      "description": "Discover the permission God gave you to stop fixing your old self and start living as the new creation He made you to be. You'll learn to see yourself through God's eyes and practice stepping into the new self He completed in Christ."
     },
     {
       "day": "Day 2", 
-      "theme": "Permission to Live From Rest",
-      "description": "You have permission to live from rest instead of striving. Learn how to live FROM your new identity in practical, daily ways. Dionne will show you why rest isn't lazy - it's your natural state in Christ."
+      "theme": "Permission to Live Your New Life with God",
+      "description": "Experience the permission God provided to live from His rest and abundance rather than striving and lack. You'll learn practical ways to live your new life WITH God and discover how He designed partnership as your natural way of being."
     },
     {
       "day": "Day 3",
-      "theme": "Permission to Learn Relationally", 
-      "description": "You have permission to learn relationally with God instead of academically about God. Understand why academic learning about God doesn't create lasting transformation."
+      "theme": "Permission to Learn Relationally with God", 
+      "description": "Discover how God delights in your learning and loves who you're becoming. You'll experience His joy in your growth and learn to recognize how He loves guiding you into all He has prepared, creating beautiful transformation through His delight in you."
     }
   ],
-  "features": {
-    "headline": "What You'll Experience During These 3 Life-Changing Days",
-    "subheading": "Every session designed to move you from exhaustion to permission-based living",
-    "description": "This isn't another conference about trying harder. These 90-minute sessions each day will systematically give you the three permissions that transform how you live with God - from performance to partnership, from striving to rest, from academic learning to relational growth.",
-    "items": [
-      {
-        "title": "Permission-Based Identity Teaching",
-        "description": "Discover who you already are in Christ instead of trying to become someone new"
-      },
-      {
-        "title": "Credible Guide Authority",
-        "description": "Learn from Graham and Dionne who've actually walked this transformation journey"
-      },
-      {
-        "title": "Practical Implementation Strategy",
-        "description": "Move beyond theory to daily living from your new permissions"
-      },
-      {
-        "title": "Relational Learning Method",
-        "description": "Experience learning WITH God instead of just learning ABOUT God"
-      },
-      {
-        "title": "Systematic Transformation Process",
-        "description": "Get the methodology that makes lasting change actually stick"
-      },
-      {
-        "title": "Complete Transformation Framework",
-        "description": "Get the complete methodology for living from permission instead of performance"
-      }
-    ],
-    "cta": "Secure my seat Today"
-  },
+
   "speakers": {
     "headline": "Meet Your Guides",
     "subheading": "Leaders who've walked the journey from performance Christianity to Kingdom rest",
@@ -97,7 +66,7 @@
     "cta": "Secure my seat Today"
   },
   "ctaSection": {
-    "headline": "Ready to Stop the Exhausting Cycle?",
+    "headline": "Ready to easily exchange exhaustion for rest?",
     "description": "You don't have to spend another day trying to fix yourself. The three permissions that end the exhausting cycle are waiting to be discovered. Join Graham, Dionne, and Ray for three days where you'll learn to live from rest instead of striving and discover the relational way to grow with God. June 19-21, 2025 | 90 Minutes Each Day | Virtual Event",
     "cta": "Secure my seat Today"
   },

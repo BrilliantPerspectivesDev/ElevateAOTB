@@ -1,6 +1,5 @@
 import { Hero } from '@/components/Hero'
 import { Speakers } from '@/components/Speakers'
-import { Features } from '@/components/Features'
 import { CTA } from '@/components/CTA'
 import { SalesLetter } from '@/components/SalesLetter'
 import { EventDays } from '@/components/EventDays'
@@ -14,7 +13,6 @@ export default function Home() {
       <AnnouncementBanner />
       <Hero />
       <SalesLetter />
-      <Features />
       <Speakers />
       <EventDays />
       <CTA />

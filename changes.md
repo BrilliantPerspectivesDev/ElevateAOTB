@@ -120,9 +120,76 @@
 - Added a centered CTA button below the event day boxes in the EventDays section, using the unified GradientCTAButton and the event registration link.
 - Ensures a clear call to action is present after the event overview.
 
-## [YYYY-MM-DD] Move Hero CTA Button Above Countdown
+## [YYYY-MM-DD] Fix Runtime Error and Move Hero CTA Above Countdown
 
-- Moved the CTA button in the Hero section above the countdown timer for improved visual hierarchy and clarity.
-- Maintained spacing and layout for a clean appearance.
+- Fixed "Cannot read properties of undefined (reading 'call')" runtime error by:
+  - Removing corrupted node_modules and package-lock.json
+  - Reinstalling dependencies with npm install
+  - Clearing .next build cache directory
+- Moved the CTA button above the countdown timer in Hero.tsx as requested
+- Started development server to verify fixes
+
+## [YYYY-MM-DD] Update Speakers Headline
+
+- Changed speakers headline from "Meet Your Credible Guides" to "Meet Your Guides" in `eventContent.json` for simpler, cleaner messaging.
+
+## [YYYY-MM-DD] Fix GradientCTAButton Build Error
+
+- Fixed TypeScript build error by removing `children` props from all GradientCTAButton usages in CTA.tsx, SalesLetter.tsx, Features.tsx, and Speakers.tsx.
+- The GradientCTAButton component now always displays 'Secure my seat Today' without needing children props.
+- This resolves the Vercel deployment build failure.
+
+## [YYYY-MM-DD] Correct Third Speaker to Ray Higdon
+
+- Updated third speaker from Jenny Taylor to Ray Higdon in `eventContent.json`:
+  - Changed name, role (Event Host & Leadership Expert), bio, and image filename
+  - Updated FAQ answer to mention Ray instead of Jenny
+  - Updated CTA section description to include Ray's name
+- Ray Higdon is correctly identified as the event host and third guide.
+
+## [YYYY-MM-DD] Remove FAQ Items About Sales Presentations and Replays
+
+- Removed two FAQ items from `eventContent.json`:
+  - "What if I can't attend live?" (about replays/recordings)
+  - "Will there be any sales presentations during the event?"
+- Streamlined FAQ section to focus on core event questions.
+
+## [YYYY-MM-DD] Update Footer Logo and Text
+
+- Replaced footer Logo component with Image component using "Brilliant_Full-Color_Dark.png" in Footer.tsx
+- Updated footer text from "Stop trying to fix yourself. Start being who God says you already are." to "Discover who God says you already are."
+- Note: The Brilliant_Full-Color_Dark.png image file needs to be added to the public directory for the logo to display properly.
+
+## [YYYY-MM-DD] Simplify Announcement Banner Message
+
+- Simplified announcement banner message in `eventContent.json` by removing "Stop Trying to Fix Yourself - Start Being Who God Says You Already Are"
+- Now reads: "Limited Seats Available | June 19-21, 2025 | Virtual Event"
+- Keeps the message focused on event details and urgency.
+
+## [YYYY-MM-DD] Update Event at a Glance Copy
+
+- Updated all three event day themes and descriptions in `eventContent.json`:
+  - Day 1: "Permission to Be Your New Self" - Focus on seeing yourself through God's eyes and stepping into new creation identity
+  - Day 2: "Permission to Live Your New Life with God" - Emphasis on living from rest/abundance and partnership with God
+  - Day 3: "Permission to Learn Relationally with God" - Focus on God's delight in your learning and growth
+- All descriptions now emphasize God's perspective, partnership, and delight rather than performance or striving.
+
+## [Date: 2024-06-12] Removed Features Section Completely
+
+- Removed the Features component import from the main page (`src/app/(main)/page.tsx`)
+- Removed the Features component usage from the page layout
+- Deleted the entire "features" section from `eventContent.json` including all feature items and descriptions
+- This removes the "What You'll Experience During These 3 Life-Changing Days" section with the 6 feature items:
+  - Permission-Based Identity Teaching
+  - Credible Guide Authority
+  - Practical Implementation Strategy
+  - Relational Learning Method
+  - Systematic Transformation Process
+  - Complete Transformation Framework
+
+## [Date: 2024-06-12] Updated CTA Section Headline
+
+- Changed CTA section headline from "Ready to Stop the Exhausting Cycle?" to "Ready to easily exchange exhaustion for rest?" in `eventContent.json`
+- This creates a more positive, solution-focused headline that emphasizes the benefit rather than the problem.
 
 ---
