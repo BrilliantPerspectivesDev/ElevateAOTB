@@ -244,5 +244,14 @@
 - **Created speakers directory structure** at `public/images/speakers/`
 - Updated to match the actual uploaded file names: `Dionne.jpeg`, `Graham.jpeg`, `Ray.jpeg`
 - Updated paths to include proper `/images/speakers/` directory structure
+- Moved actual image files from `src/images/Speakers/` to `public/images/speakers/` for proper serving
+- Fixed case mismatch in `DIonne.jpeg` to `Dionne.jpeg`
+
+## [Date: 2024-06-12] Made Speaker Images Square and Uniform
+
+- **Updated speaker image aspect ratio** in `Speakers.tsx` from `aspect-[4/3]` to `aspect-square`
+- All speaker images now display as perfect squares with consistent sizing
+- Maintains `object-cover` to ensure proper cropping and no distortion
+- Creates a more uniform and professional appearance for the speaker grid
 
 ---
