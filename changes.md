@@ -198,4 +198,51 @@
 - New page order: AnnouncementBanner → Hero → EventDays → SalesLetter → Speakers → CTA → TestimonialsCarousel → FAQ
 - This provides users with an immediate overview of the event structure right after the hero introduction.
 
+## [Date: 2024-06-12] Added Event Time and Updated Testimonials
+
+- **Added specific event time "10am - 11:30am PST"** to replace "90 Minutes Each Day" in:
+  - Hero section `dateLocation` field in `eventContent.json`
+  - CTA section description in `eventContent.json`
+  - GradientCTAButton component sub-label in `GradientCTAButton.tsx`
+- **Updated testimonials** with new authentic quotes from Dorothy, Eric, Shirley, and Kelly:
+  - Dorothy: "The new perspective is mind blowing and the impact is everlasting."
+  - Eric: "Every time I watch this glorious teaching it recalibrates and tunes me into the voice of the Lord."
+  - Shirley: "This series has been like a refreshing rain or a most delicious meal."
+  - Kelly: "My soul is sweetly reset and my mind is at ease."
+- Updated testimonial handles to reflect themes: Recalibration & Transformation, Foundational Teaching, Refreshing Experience, Empowering Moments
+
+## [Date: 2024-06-12] Made Testimonials JSON-Powered
+
+- **Converted testimonials from hardcoded to JSON-powered** in `src/app/(main)/page.tsx`
+- Added `eventContent` import to main page
+- Replaced hardcoded testimonial array with `eventContent.testimonials.items`
+- Now testimonials can be easily updated by editing the JSON file instead of modifying component code
+- This follows the established pattern of all other content being managed through the central JSON file
+
+## [Date: 2024-06-12] Enhanced Testimonials Section Prominence
+
+- **Removed photos** from testimonials in `TestimonialsCarousel.tsx` for cleaner, text-focused design
+- **Made testimonials more prominent** with larger sizing and improved styling:
+  - Increased container width from `max-w-xl` to `max-w-4xl`
+  - Enhanced quote styling: larger text (text-xl), italic, bold, with quotation marks
+  - Improved name styling: larger (text-xl), bold, with em dash
+  - Enhanced navigation arrows: larger padding, shadow effects
+  - Bigger navigation dots with hover effects
+- **Created dedicated Testimonials section component** (`src/components/Testimonials.tsx`):
+  - Added proper section wrapper with celadon background
+  - Included section headings from JSON ("What Others Are Saying" and "Lives Transformed by Permission-Based Living")
+  - Larger, more prominent heading typography
+  - Proper Container and spacing
+- **Updated main page** to use new Testimonials component instead of direct TestimonialsCarousel usage
+
+## [Date: 2024-06-12] Updated Speaker Image File Names
+
+- **Updated speaker image references** in `eventContent.json` to use actual file names:
+  - Graham Cooke: `/images/speakers/Graham.jpeg`
+  - Dionne van Zyl: `/images/speakers/Dionne.jpeg`
+  - Ray Higdon: `/images/speakers/Ray.jpeg`
+- **Created speakers directory structure** at `public/images/speakers/`
+- Updated to match the actual uploaded file names: `Dionne.jpeg`, `Graham.jpeg`, `Ray.jpeg`
+- Updated paths to include proper `/images/speakers/` directory structure
+
 ---

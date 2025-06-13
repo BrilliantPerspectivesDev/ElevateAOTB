@@ -6,7 +6,7 @@
   "hero": {
     "preHeadline": "Are you exhausted from trying to be better?",
     "headline": "The 3 Permissions You Need to Live Limitlessly with God",
-    "dateLocation": "June 19-21, 2025 | 3-Day Virtual Event | 90 Minutes Each Day",
+    "dateLocation": "June 19-21, 2025 | 3-Day Virtual Event | 10am - 11:30am PST",
     "intro": "Stop trying to fix who you were. Start being who you are in Christ. Join Graham Cooke and Team Brilliant as they reveal the three permissions that end the exhausting cycle of performance Christianity and open the door to the limitless life Jesus actually purchased for you.",
     "countdownDate": "2025-06-19T17:00:00Z",
     "cta": "Secure my seat Today"
@@ -48,26 +48,26 @@
         "name": "Graham Cooke",
         "role": "Founder & Primary Teacher",
         "bio": "Graham spent years in the exhausting cycle of performance Christianity before discovering the permissions that changed everything. Author of over 40 books and trusted by thousands worldwide, Graham will help you see that God never asked you to fix yourself - He gave you permission to BE who He says you already are.",
-        "image": "graham-cooke.jpg"
+        "image": "/images/speakers/Graham.jpeg"
       },
       {
         "name": "Dionne van Zyl",  
         "role": "CEO & Leadership Expert",
         "bio": "Dionne understands the struggle of knowing your identity but not knowing how to live it out. Through his own journey from striving to rest, he's developed practical methodologies for living from your new nature instead of working toward it. He'll show you exactly how to make this shift in your daily life.",
-        "image": "dionne-van-zyl.jpg"
+        "image": "/images/speakers/Dionne.jpeg"
       },
       {
         "name": "Ray Higdon",
         "role": "Event Host & Leadership Expert", 
         "bio": "Ray brings years of experience in creating transformational experiences and has a heart for helping people discover their true identity in Christ. As your host, he'll guide you through breakthrough moments and ensure you get the most out of each session.",
-        "image": "ray-higdon.jpg"
+        "image": "/images/speakers/Ray.jpeg"
       }
     ],
     "cta": "Secure my seat Today"
   },
   "ctaSection": {
     "headline": "Ready to easily exchange exhaustion for rest?",
-    "description": "You don't have to spend another day trying to fix yourself. The three permissions that end the exhausting cycle are waiting to be discovered. Join Graham, Dionne, and Ray for three days where you'll learn to live from rest instead of striving and discover the relational way to grow with God. June 19-21, 2025 | 90 Minutes Each Day | Virtual Event",
+    "description": "You don't have to spend another day trying to fix yourself. The three permissions that end the exhausting cycle are waiting to be discovered. Join Graham, Dionne, and Ray for three days where you'll learn to live from rest instead of striving and discover the relational way to grow with God. June 19-21, 2025 | 10am - 11:30am PST | Virtual Event",
     "cta": "Secure my seat Today"
   },
   "testimonials": {
@@ -75,28 +75,28 @@
     "mainHeading": "Lives Transformed by Permission-Based Living",
     "items": [
       {
-        "quote": "I didn't realize I'd been asking God for permission He gave me 20 years ago when I became a Christian. Learning to live FROM that permission instead of TO it has changed everything about my daily experience with Him.",
-        "name": "Sarah M.",
-        "handle": "BSOL Graduate",
-        "image": "sarah-m.jpg"
+        "quote": "The new perspective is mind blowing and the impact is everlasting.",
+        "name": "Dorothy",
+        "handle": "Recalibration & Transformation",
+        "image": "dorothy.jpg"
       },
       {
-        "quote": "I spent decades trying to earn what Jesus already purchased. These principles helped me step into the limitless life that was always mine in Christ.",
-        "name": "Mike T.",
-        "handle": "Inner Circle Member", 
-        "image": "mike-t.jpg"
+        "quote": "Every time I watch this glorious teaching it recalibrates and tunes me into the voice of the Lord.",
+        "name": "Eric",
+        "handle": "Foundational Teaching",
+        "image": "eric.jpg"
       },
       {
-        "quote": "The relational learning approach is completely different from anything I'd experienced. Instead of trying to apply principles through willpower, I'm actually living and growing in partnership with God.",
-        "name": "Lisa K.",
-        "handle": "Movement Member",
-        "image": "lisa-k.jpg"
+        "quote": "This series has been like a refreshing rain or a most delicious meal.",
+        "name": "Shirley",
+        "handle": "Refreshing Experience",
+        "image": "shirley.jpg"
       },
       {
-        "quote": "For the first time, I have permission to rest without guilt and live without striving. This isn't just teaching - it's a complete transformation of how I relate to God and myself.",
-        "name": "David R.",
-        "handle": "Movement Member",
-        "image": "david-r.jpg"
+        "quote": "My soul is sweetly reset and my mind is at ease.",
+        "name": "Kelly",
+        "handle": "Empowering Moments",
+        "image": "kelly.jpg"
       }
     ]
   },

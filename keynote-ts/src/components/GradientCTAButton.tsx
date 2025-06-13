@@ -18,7 +18,7 @@ export function GradientCTAButton({ href, className }: GradientCTAButtonProps) {
       )}
     >
       <span>Secure my seat Today</span>
-      <span className="block text-xs font-normal mt-1 text-white opacity-80">June 19–21, 2025 · 90 Min Daily · Virtual</span>
+      <span className="block text-xs font-normal mt-1 text-white opacity-80">June 19–21, 2025 · 10am - 11:30am PST · Virtual</span>
     </Link>
   )
 } 
