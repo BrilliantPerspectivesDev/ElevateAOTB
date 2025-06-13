@@ -41,7 +41,7 @@ export function TestimonialsCarousel({ testimonials }: TestimonialsCarouselProps
       <div className="flex flex-col items-center">
         <figure className="rounded-3xl bg-sand p-12 text-lg/8 flex flex-col items-center text-center w-full shadow-xl">
           <blockquote className="text-charcoal">
-            <p className="text-center text-xl font-medium italic leading-relaxed">"{testimonials[current].quote}"</p>
+            <p className="text-center text-xl font-medium italic leading-relaxed">&ldquo;{testimonials[current].quote}&rdquo;</p>
           </blockquote>
           <figcaption className="mt-8 flex flex-col items-center gap-y-3">
             <div className="text-xl font-bold text-charcoal">— {testimonials[current].name}</div>
