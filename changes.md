@@ -192,4 +192,10 @@
 - Changed CTA section headline from "Ready to Stop the Exhausting Cycle?" to "Ready to easily exchange exhaustion for rest?" in `eventContent.json`
 - This creates a more positive, solution-focused headline that emphasizes the benefit rather than the problem.
 
+## [Date: 2024-06-12] Moved Event at a Glance Section
+
+- Moved the EventDays component ("Event at a Glance") to appear immediately after the Hero section in `src/app/(main)/page.tsx`
+- New page order: AnnouncementBanner → Hero → EventDays → SalesLetter → Speakers → CTA → TestimonialsCarousel → FAQ
+- This provides users with an immediate overview of the event structure right after the hero introduction.
+
 ---

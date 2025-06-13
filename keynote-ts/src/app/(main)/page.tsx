@@ -12,9 +12,9 @@ export default function Home() {
     <>
       <AnnouncementBanner />
       <Hero />
+      <EventDays />
       <SalesLetter />
       <Speakers />
-      <EventDays />
       <CTA />
       <TestimonialsCarousel testimonials={[
         {
