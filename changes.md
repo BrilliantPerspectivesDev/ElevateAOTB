@@ -254,4 +254,12 @@
 - Maintains `object-cover` to ensure proper cropping and no distortion
 - Creates a more uniform and professional appearance for the speaker grid
 
+## [Date: 2024-06-12] Added Brilliant Tracking Script
+
+- **Added tracking script** to the site header in `src/app/layout.tsx`
+- **Used Next.js Script component** with `strategy="afterInteractive"` for optimal loading
+- **Script URL:** `https://t.mybrilliant.app/v1/lst/universal-script`
+- **Parameters:** Includes page hash and reference URL tracking
+- Script loads after the page becomes interactive to avoid blocking page load
+
 ---

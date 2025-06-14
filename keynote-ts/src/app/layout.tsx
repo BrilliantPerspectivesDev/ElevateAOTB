@@ -1,5 +1,6 @@
 import { type Metadata } from 'next'
 import { DM_Sans, Inter } from 'next/font/google'
+import Script from 'next/script'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
@@ -69,6 +70,19 @@ export default function RootLayout({
     >
       <head />
       <body className="flex min-h-full">
+        <Script
+          id="brilliant-tracking"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var head = document.head;
+              var script = document.createElement('script');
+              script.type = 'text/javascript';
+              script.src = "https://t.mybrilliant.app/v1/lst/universal-script?ph=2e5b64900a084ea4a2c585fdd71057b618ff67818720df62e56696dee06253f0&tag=!clicked&ref_url=" + encodeURI(document.URL);
+              head.appendChild(script);
+            `,
+          }}
+        />
         <div className="flex w-full flex-col">{children}</div>
       </body>
     </html>
