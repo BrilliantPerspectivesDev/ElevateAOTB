@@ -42,7 +42,7 @@ export function Hero() {
               <p>{hero.intro}</p>
             </div>
             <div className="mt-6">
-              <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523" />
+              <GradientCTAButton href="https://brilliantperspectives.clickfunnels.com/optind6zcv83l" />
             </div>
             <CountdownTimer targetDate={hero.countdownDate} />
           </div>

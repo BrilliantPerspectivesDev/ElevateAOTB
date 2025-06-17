@@ -16,7 +16,7 @@ export function SalesLetter() {
         {sales.paragraphs.map((p, i) => (
           <p key={i} className="mb-6 text-lg text-charcoal">{p}</p>
         ))}
-        <GradientCTAButton href="https://deals.brilliantperspectives.com/order-form1749742211523" />
+        <GradientCTAButton href="https://brilliantperspectives.clickfunnels.com/optind6zcv83l" />
       </div>
     </section>
   )

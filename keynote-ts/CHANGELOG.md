@@ -4,6 +4,12 @@
 
 - Updated announcement banner message to "Free to Brilliant Movement Members"
 - Modified eventContent.json to reflect membership-based pricing
+- Updated all CTA button links to new ClickFunnels URL: https://brilliantperspectives.clickfunnels.com/optind6zcv83l
+- Modified components: Hero.tsx, CTA.tsx, SalesLetter.tsx, Speakers.tsx, AnnouncementBanner.tsx
+- Updated metadata URL in layout.tsx
+- Changed all CTA button text to "Secure my free ticket"
+- Updated GradientCTAButton.tsx and all CTA instances in eventContent.json
+- Disabled announcement banner by commenting out import and usage in page.tsx
 
 ## 2025-05-22
 

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Limitless Life with God - Virtual Event',
     description: "Join us for Limitless Life with God, a 2-day virtual event with Graham Cooke & Dionne. Experience transformative teaching, interactive sessions, and practical application to live from your true identity in Christ. March 7-8, 2025.",
-    url: 'https://deals.brilliantperspectives.com/order-form1749742211523',
+    url: 'https://brilliantperspectives.clickfunnels.com/optind6zcv83l',
     type: 'website',
     images: [
       {

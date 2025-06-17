@@ -5,12 +5,12 @@ import { SalesLetter } from '@/components/SalesLetter'
 import { EventDays } from '@/components/EventDays'
 import { FAQ } from '@/components/FAQ'
 import { Testimonials } from '@/components/Testimonials'
-import { AnnouncementBanner } from '@/components/AnnouncementBanner'
+// import { AnnouncementBanner } from '@/components/AnnouncementBanner'
 
 export default function Home() {
   return (
     <>
-      <AnnouncementBanner />
+      {/* <AnnouncementBanner /> */}
       <Hero />
       <EventDays />
       <SalesLetter />

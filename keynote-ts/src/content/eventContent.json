@@ -1,7 +1,7 @@
 {
   "announcementBanner": {
     "message": "Free to Brilliant Movement Members | June 19-21, 2025 | Virtual Event",
-    "cta": "Secure Your Permission Today"
+    "cta": "Secure my free ticket"
   },
   "hero": {
     "preHeadline": "Are you exhausted from trying to be better?",
@@ -9,7 +9,7 @@
     "dateLocation": "June 19-21, 2025 | 3-Day Virtual Event | 10am - 11:30am PST",
     "intro": "Stop trying to fix who you were. Start being who you are in Christ. Join Graham Cooke and Team Brilliant as they reveal the three permissions that end the exhausting cycle of performance Christianity and open the door to the limitless life Jesus actually purchased for you.",
     "countdownDate": "2025-06-19T17:00:00Z",
-    "cta": "Secure my seat Today"
+    "cta": "Secure my free ticket"
   },
   "salesLetter": {
     "headline": "I'm So Tired of Trying to Be Better...",
@@ -20,7 +20,7 @@
       "What if the problem isn't your commitment? What if you're just missing the right permissions?",
       "Graham Cooke and Dionne van Zyl have walked this exact journey - from the exhaustion of performance Christianity to the rest of identity-based Kingdom living. They've discovered something revolutionary: You don't need to try harder. You need different permissions."
     ],
-    "cta": "Secure my seat Today"
+    "cta": "Secure my free ticket"
   },
   "eventDays": [
     {
@@ -63,12 +63,12 @@
         "image": "/images/speakers/Ray.jpeg"
       }
     ],
-    "cta": "Secure my seat Today"
+    "cta": "Secure my free ticket"
   },
   "ctaSection": {
     "headline": "Ready to easily exchange exhaustion for rest?",
     "description": "You don't have to spend another day trying to fix yourself. The three permissions that end the exhausting cycle are waiting to be discovered. Join Graham, Dionne, and Ray for three days where you'll learn to live from rest instead of striving and discover the relational way to grow with God. June 19-21, 2025 | 10am - 11:30am PST | Virtual Event",
-    "cta": "Secure my seat Today"
+    "cta": "Secure my free ticket"
   },
   "testimonials": {
     "smallHeading": "What Others Are Saying",
