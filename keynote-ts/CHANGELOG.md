@@ -1,5 +1,10 @@
 # Changelog
 
+## 2025-01-16
+
+- Updated announcement banner message to "Free to Brilliant Movement Members"
+- Modified eventContent.json to reflect membership-based pricing
+
 ## 2025-05-22
 
 - Fix bug with focus styles
