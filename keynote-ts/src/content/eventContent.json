@@ -1,6 +1,6 @@
 {
   "announcementBanner": {
-    "message": "Special Elevate Package: Lifetime Access to 'The Art of Thinking Brilliantly' - Just $97",
+    "message": "Limited Time: Lifetime Access to 'The Art of Thinking Brilliantly' - 50% Off - Just $47 (Was $97)",
     "cta": "Get Instant Access"
   },
   "hero": {
@@ -32,7 +32,7 @@
       "Access Hidden Provision - Make every situation yield the provision God has already attached to it",
       "Practice Kingdom Routines - Develop daily practices that keep you thinking brilliantly"
     ],
-    "cta": "Get Instant Access for $97"
+    "cta": "Get Instant Access for $47"
   },
   "productFeatures": {
     "headline": "What's Included in Your Elevate Package",
@@ -58,7 +58,7 @@
         "description": "Key quotes and insights from each teaching"
       }
     ],
-    "cta": "Get Instant Access for $97"
+    "cta": "Get Instant Access for $47"
   },
   "instructor": {
     "headline": "Learn from Graham Cooke",
@@ -76,16 +76,18 @@
     "paragraphs": [
       "God is raising up a generation who thinks from Heaven's perspective. Every day, you have situations waiting to reveal God's goodness and provision.",
       "This comprehensive 18-session series equips you to recognize and receive what He's already prepared. It's perfect for those new to Graham's teaching or anyone wanting to go deeper in understanding how Heaven thinks.",
-      "Special Elevate Introduction: Experience Graham's transformative teaching with lifetime streaming access for just $97 - a fraction of ongoing membership costs."
+      "Special Elevate Introduction: Experience Graham's transformative teaching with lifetime streaming access for just $47 (50% off the regular $97 price) - a fraction of ongoing membership costs."
     ],
     "cta": "Claim Your Access"
   },
   "pricing": {
     "headline": "Your Investment in Kingdom Thinking",
-    "price": "$97",
+    "originalPrice": "$97",
+    "price": "$47",
+    "discount": "50% OFF",
     "priceNote": "One-time payment, lifetime streaming access",
     "comparisonItems": [
-      "Less than $6 per session",
+      "Less than $3 per session (was $6)",
       "Fraction of conference attendance",
       "No monthly fees - stream forever"
     ],
@@ -125,7 +127,7 @@
       },
       {
         "question": "Is this different from BrilliantPlus membership?",
-        "answer": "Yes! This Elevate package gives you lifetime streaming access to this specific series for a one-time payment of $97, while BrilliantPlus is a monthly membership with access to our entire library."
+        "answer": "Yes! This Elevate package gives you lifetime streaming access to this specific series for a one-time payment of $47 (50% off), while BrilliantPlus is a monthly membership with access to our entire library."
       },
       {
         "question": "Can I download the videos?",
@@ -151,7 +153,7 @@
   },
   "ctaSection": {
     "headline": "Ready to Transform Your Thinking?",
-    "description": "Join thousands who have discovered the Kingdom mindset that's already yours in Christ. Get lifetime access to all 18 sessions for just $97."
+    "description": "Join thousands who have discovered the Kingdom mindset that's already yours in Christ. Get lifetime access to all 18 sessions for just $47 (50% off the regular $97 price)."
   },
   "footer": {
     "text": "© 2024 Brilliant Perspectives. Empowering believers to think brilliantly and live from their Kingdom identity."

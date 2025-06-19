@@ -23,11 +23,11 @@ export function StructuredData() {
     "inLanguage": "en-US",
     "offers": {
       "@type": "Offer",
-      "price": "97",
+      "price": "47",
       "priceCurrency": "USD",
       "availability": "https://schema.org/InStock",
       "validFrom": "2024-01-01",
-      "description": "Lifetime streaming access to all 18 sessions"
+      "description": "Lifetime streaming access to all 18 sessions - 50% off limited time offer"
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",

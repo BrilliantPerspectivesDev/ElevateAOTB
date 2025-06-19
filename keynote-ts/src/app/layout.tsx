@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: 'The Art of Thinking Brilliantly - 18 Sessions with Graham Cooke | Brilliant Perspectives',
   },
   description:
-    "Discover the Kingdom mindset that's already yours in Christ with Graham Cooke's transformative 18-session series 'The Art of Thinking Brilliantly'. Stream anytime, anywhere with lifetime access for just $97.",
+    "Discover the Kingdom mindset that's already yours in Christ with Graham Cooke's transformative 18-session series 'The Art of Thinking Brilliantly'. Stream anytime, anywhere with lifetime access for just $47 (50% off).",
   keywords: [
     'Graham Cooke',
     'Kingdom thinking',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   publisher: 'Brilliant Perspectives',
   openGraph: {
     title: 'The Art of Thinking Brilliantly - 18 Sessions with Graham Cooke',
-    description: "Discover the Kingdom mindset that's already yours in Christ with Graham Cooke's transformative 18-session series. Stream anytime, anywhere with lifetime access for just $97.",
+    description: "Discover the Kingdom mindset that's already yours in Christ with Graham Cooke's transformative 18-session series. Stream anytime, anywhere with lifetime access for just $47 (50% off).",
     url: 'https://elevate-aotb.vercel.app',
     siteName: 'The Art of Thinking Brilliantly',
     type: 'website',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'The Art of Thinking Brilliantly - 18 Sessions with Graham Cooke',
-    description: "Discover the Kingdom mindset that's already yours in Christ. Stream anytime, anywhere with lifetime access for just $97.",
+    description: "Discover the Kingdom mindset that's already yours in Christ. Stream anytime, anywhere with lifetime access for just $47 (50% off).",
     images: ['/og-image.jpg'],
     site: '@brilliantperspectives',
     creator: '@grahamcooke',

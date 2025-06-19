@@ -30,6 +30,18 @@ export function Pricing() {
               <div className="p-12">
                 {/* Price display */}
                 <div className="text-center mb-12">
+                  {pricing.originalPrice && (
+                    <div className="mb-2">
+                      <span className="text-2xl text-gray-400 line-through font-light">
+                        {pricing.originalPrice}
+                      </span>
+                      {pricing.discount && (
+                        <span className="ml-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                          {pricing.discount}
+                        </span>
+                      )}
+                    </div>
+                  )}
                   <div className="text-7xl font-light text-white mb-4">
                     {pricing.price}
                   </div>
