@@ -17,8 +17,10 @@ export function GradientCTAButton({ href, className }: GradientCTAButtonProps) {
         className
       )}
     >
-      <span>Get Instant Access for $97</span>
-      <span className="block text-sm font-light mt-1 text-white/90">Lifetime streaming access</span>
+      <span>Get Instant Access for $47</span>
+      <span className="block text-sm font-light mt-1 text-white/90">
+        <span className="line-through opacity-75">$97</span> 50% OFF - Lifetime streaming access
+      </span>
     </Link>
   )
 } 
