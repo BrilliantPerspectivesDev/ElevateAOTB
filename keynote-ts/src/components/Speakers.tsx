@@ -52,7 +52,7 @@ function ImageClipPaths({
 export function Speakers() {
   let id = useId()
   let [tabOrientation, setTabOrientation] = useState('horizontal')
-  const speakers = eventContent.speakers;
+  const instructor = eventContent.instructor;
 
   useEffect(() => {
     let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
@@ -79,31 +79,29 @@ export function Speakers() {
             id="speakers-title"
             className="font-display text-4xl font-bold tracking-tighter text-ochre sm:text-5xl"
           >
-            {speakers.headline}
+            {instructor.headline}
           </h2>
           <p className="mt-6 font-display text-2xl tracking-tight text-celadon">
-            {speakers.subheading}
+            {instructor.subheading}
           </p>
         </div>
         <div className="mt-20 flex flex-col items-center gap-8 md:flex-row md:justify-center md:items-stretch md:gap-8 flex-wrap">
-          {speakers.people.map((person) => (
-            <div key={person.name} className="w-full md:w-1/2 lg:w-1/4 flex justify-center">
-              <div className="bg-bone rounded-3xl shadow-lg flex flex-col items-center p-10 h-full w-full">
-                <div className="w-full aspect-square relative mb-8">
-                  <Image
-                    src={person.image}
-                    alt={person.name}
-                    fill
-                    className="object-cover rounded-2xl"
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
-                <h3 className="text-xl font-bold text-charcoal mb-2 text-center">{person.name}</h3>
-                <p className="text-moss text-base font-medium mb-3 text-center">{person.role}</p>
-                <p className="text-charcoal text-base text-center opacity-80">{person.bio}</p>
+          <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center">
+            <div className="bg-bone rounded-3xl shadow-lg flex flex-col items-center p-10 h-full w-full">
+              <div className="w-full aspect-square relative mb-8">
+                <Image
+                  src={`/images/speakers/${instructor.bio.image}`}
+                  alt={instructor.bio.name}
+                  fill
+                  className="object-cover rounded-2xl"
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
+              <h3 className="text-xl font-bold text-charcoal mb-2 text-center">{instructor.bio.name}</h3>
+              <p className="text-moss text-base font-medium mb-3 text-center">{instructor.bio.role}</p>
+              <p className="text-charcoal text-base text-center opacity-80">{instructor.bio.description}</p>
             </div>
-          ))}
+          </div>
         </div>
         <div className="flex justify-center mt-16">
           <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
