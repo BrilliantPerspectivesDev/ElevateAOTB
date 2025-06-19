@@ -198,6 +198,208 @@
 - New page order: AnnouncementBanner → Hero → EventDays → SalesLetter → Speakers → CTA → TestimonialsCarousel → FAQ
 - This provides users with an immediate overview of the event structure right after the hero introduction.
 
+## [Date: 2024-06-12] Fixed Hero Background Image and Enhanced Design
+
+**Background Image Fix:**
+- Fixed broken background image by URL-encoding the filename space: `susan-wilkinson-64DUJmMrjVE-unsplash%20Large.jpeg`
+- Changed image positioning from `object-bottom` to `object-center` for better focal point
+- Increased opacity from 30% to 40% for more visual impact
+- Added `sizes="100vw"` for proper responsive loading
+
+**Visual Design Enhancements:**
+- Implemented multi-layered gradient overlays for sophisticated depth:
+  - Diagonal gradient: `from-charcoal/80 via-charcoal/50 to-charcoal/20`
+  - Vertical gradient: `from-charcoal/90 via-charcoal/30 to-charcoal/40`
+- Enhanced typography hierarchy:
+  - Increased headline size to `lg:text-8xl` for maximum impact
+  - Enhanced drop shadows (`drop-shadow-xl`) for better text readability
+  - Used solid `text-bone` color for maximum contrast and visibility
+  - Improved letter spacing and line height for better readability
+- Enhanced layout:
+  - Changed to `min-h-[85vh]` with flex centering for better viewport usage
+  - Increased content max-width to `lg:max-w-5xl` for better text flow
+  - Added more generous spacing between elements
+  - Enhanced mobile responsiveness with better scaling
+
+## [Date: 2024-06-12] Fixed Hero Text Visibility Issue
+
+- Removed gradient text effect that was making the headline invisible/unreadable
+- Restored solid `text-bone` color for maximum contrast against the background
+- Strengthened gradient overlays for better text readability:
+  - Increased diagonal gradient opacity: `from-charcoal/80 via-charcoal/50 to-charcoal/20`
+  - Enhanced vertical gradient coverage: `from-charcoal/90 via-charcoal/30 to-charcoal/40`
+- Enhanced drop shadow to `drop-shadow-xl` for better text separation
+- Ensures all hero text is clearly visible and readable across all devices
+
+## [Date: 2024-06-12] Updated Hero Pre-Header and Headline
+
+- Updated hero `preHeadline` from "18-Part Video Series with Graham Cooke" to "Move From Frustrated to Walking what's yours:"
+- Updated hero `headline` from "What If You Could Think Like Heaven Thinks?" to "Discover The Art of Thinking Brilliantly"
+- Changes create a more direct, benefit-focused messaging that addresses the user's journey from frustration to empowerment
+
+## [Date: 2024-06-12] Updated CTA Buttons to Black Styling
+
+- Changed GradientCTAButton from moss-to-celadon gradient to solid black background
+- Updated hover state from gradient hover to `hover:bg-gray-900` for subtle interaction feedback
+- Updated focus ring color from moss to black for consistency
+- Maintains white text for optimal contrast and readability
+- Creates a more premium, sophisticated look for all CTA buttons across the site
+
+## [Date: 2024-06-12] Updated Graham's Image Path
+
+- Updated Graham's image filename in `eventContent.json` from "graham-cooke.jpg" to "Graham.jpeg"
+- This matches the actual filename in the `/public/images/speakers/` directory
+- Ensures Graham's photo displays correctly in the Instructor section
+
+## [Date: 2024-06-12] Updated All CTA Links to New Brilliant Perspectives URL
+
+- Updated all CTA button links from old ClickFunnels URL to new Brilliant Perspectives URL: `https://deals.brilliantperspectives.com/optin1750344852174`
+- Updated components:
+  - Hero.tsx
+  - SalesLetter.tsx
+  - SeriesOverview.tsx
+  - ProductFeatures.tsx
+  - TransformationSection.tsx
+  - Instructor.tsx
+  - ValueProposition.tsx
+  - Pricing.tsx
+  - FinalCTA.tsx
+  - CTA.tsx
+  - AnnouncementBanner.tsx
+  - Speakers.tsx
+- Also updated OpenGraph URL in layout.tsx for proper social media sharing
+- All CTA buttons now direct users to the correct registration/purchase page
+
+## [Date: 2024-06-12] Combined SeriesOverview and TransformationSection with Checklist Format
+
+- **Removed detailed module breakdown** from SeriesOverview (Foundation, Transformation, Application sessions)
+- **Combined SeriesOverview and TransformationSection** into single unified section
+- **Converted transformation benefits to checklist format** with green checkmark icons
+- **Updated JSON structure** with new `subheading2` and `benefits` array instead of separate modules and items
+- **Added CheckIcon from Heroicons** for visual checkmarks in moss green circular backgrounds
+- **Removed TransformationSection component** entirely from codebase
+- **Updated main page layout** to remove duplicate TransformationSection
+- **Simplified section flow** for better user experience and reduced redundancy
+- New structure: "18 Transformative Sessions" → "Over 24 hours of teaching" → Checklist of 6 benefits → CTA
+
+## [Date: 2024-06-12] Updated Hero Background Image
+
+- Updated the hero background image file: `susan-wilkinson-64DUJmMrjVE-unsplash Large.jpeg`
+- Hero component automatically uses the updated image with the same filename
+- Image maintains proper URL encoding and responsive loading configuration
+
+## [Date: 2024-06-12] Added Bottom Fade Gradient to Hero Background
+
+- Added bottom fade gradient overlay to hero background image
+- Creates smooth transition from image to next section with `bg-gradient-to-t from-bone to-transparent`
+- Gradient spans 32 units height (`h-32`) at the bottom of the hero section
+- Fades to bone color to match the following section's background
+- Enhances visual flow and professional appearance
+
+## [Date: 2024-06-12] Removed FinalCTA Section
+
+- Removed the "Ready to Think Like Heaven?" section (FinalCTA component) from the page
+- Deleted FinalCTA.tsx component file
+- Removed finalCta section from eventContent.json
+- Updated main page layout to remove FinalCTA import and usage
+- Page now flows directly from Testimonials to FAQ section
+- Streamlines the user experience by reducing redundant CTA sections
+
+## [Date: 2024-06-12] Senior Designer Visual Enhancements - Complete Page Upgrade
+
+**SalesLetter Section:**
+- Added sophisticated gradient background: `from-sand via-bone to-sand/80`
+- Implemented decorative floating elements with celadon and moss gradients
+- Added premium accent line above headline with moss-to-celadon gradient
+- Enhanced headline with subtle ochre highlight background
+- Added decorative accent line for first paragraph
+- Enhanced CTA area with subtle glow effect
+
+**ProductFeatures Section:**
+- Transformed to dark charcoal background with gradient overlays
+- Added dynamic floating background elements for depth
+- Implemented colorful gradient icons for each feature (moss, ochre, celadon combinations)
+- Created sophisticated hover effects with scale, color transitions, and shadows
+- Added premium accent line above headline
+- Enhanced cards with backdrop blur and interactive hover states
+- Increased grid to 6 columns for better spacing
+
+**Pricing Section:**
+- Complete premium redesign with sophisticated card layout
+- Added animated gradient glow effect around pricing card
+- Implemented "Limited Time Offer" badge with gradient background
+- Enhanced price display with gradient text effect
+- Added interactive hover effects on comparison items
+- Premium guarantee section with shield icon and gradient styling
+- Enhanced decorative background with animated pulse effects
+
+**SeriesOverview Section:**
+- Added gradient background with floating decorative elements
+- Enhanced headline with subtle moss highlight background
+- Converted duration to premium badge design
+- Transformed benefits into interactive cards with hover effects
+- Added sophisticated checkmark icons with gradient backgrounds
+- Implemented smooth animations and scale effects
+- Enhanced spacing and typography hierarchy
+
+**Design System Improvements:**
+- Consistent use of brand gradient combinations (moss-celadon, ochre-sand)
+- Strategic color placement for visual hierarchy
+- Sophisticated hover states and micro-interactions
+- Premium visual effects (blur, shadows, gradients)
+- Enhanced mobile responsiveness across all sections
+- Professional spacing and typography refinements
+
+## [Date: 2024-12-19] Complete Content Transformation to "The Art of Thinking Brilliantly"
+
+### Content Updates
+- **Replaced entire `eventContent.json`** with new product-focused content for Graham Cooke's 18-part video series
+- Updated from event-based content to product sales page content
+- New sections: seriesOverview, productFeatures, transformationSection, instructor, valueProposition, pricing, finalCta
+- Updated testimonials with product-specific feedback
+- Completely new FAQ section focused on streaming product questions
+
+### Component Updates
+- **Updated Hero component**: Removed countdown timer, updated for product focus, added subtitle support
+- **Created SeriesOverview component**: Displays 18 sessions organized into 3 modules with responsive grid
+- **Created ProductFeatures component**: Shows package features in clean grid layout
+- **Created TransformationSection component**: Displays transformation benefits in organized layout
+- **Created Instructor component**: Showcases Graham Cooke with image and bio
+- **Created ValueProposition component**: Explains why this series matters now
+- **Created Pricing component**: Displays $97 price with comparison items and guarantee
+- **Created FinalCTA component**: Strong final call to action with bullet points
+- **Updated GradientCTAButton**: Changed to gradient background and "$97" pricing copy
+
+### Page Structure Changes
+- **Removed components**: EventDays, Speakers, CTA (old event-focused components)
+- **New page flow**: AnnouncementBanner → Hero → SalesLetter → SeriesOverview → TransformationSection → ProductFeatures → Instructor → ValueProposition → Pricing → Testimonials → FinalCTA → FAQ
+- **Enabled AnnouncementBanner**: Now displays special Elevate package offer
+- Complete transformation from event registration to product sales page
+
+## [Date: 2024-12-19] Custom Fluid Art SVG Backgrounds
+
+### Visual Design Enhancements
+- **Hero Section**: Created custom fluid art SVG background matching the provided design reference
+  - Multiple flowing organic shapes with vibrant gradient colors
+  - Pink, orange, cyan, and purple gradients mimicking liquid paint effects
+  - Layered opacity for depth and visual interest
+- **SeriesOverview Section**: Added subtle fluid background using brand colors (moss/celadon)
+- **Pricing Section**: Added dynamic radial gradient fluid background highlighting the pricing
+- **All backgrounds**: Optimized opacity levels for readability while maintaining visual appeal
+- **Responsive Design**: SVG backgrounds scale properly across all device sizes
+
+## [Date: 2024-12-19] Updated Hero Background to Explosive Fluid Art
+
+### Enhanced Hero Visual Impact
+- **Replaced SVG background** with actual explosive fluid art image (`susan-wilkinson-64DUJmMrjVE-unsplash Large.jpeg`)
+- **Real paint splash photography**: Authentic upward-flowing paint splashes with vibrant oranges, yellows, and navy blues
+- **Image positioning**: `object-bottom` to showcase the explosive paint effect from bottom of frame
+- **30% opacity** with gradient overlay for optimal text readability
+- **Next.js Image optimization**: Priority loading for immediate visual impact
+- **Gradient overlay**: Charcoal gradient from bottom to top for enhanced text contrast
+- **Dynamic composition**: Real paint splashes create authentic artistic energy
+- **Enhanced visual impact**: Authentic art photography matching "Art of Thinking Brilliantly" theme perfectly
+
 ## [Date: 2024-06-12] Added Event Time and Updated Testimonials
 
 - **Added specific event time "10am - 11:30am PST"** to replace "90 Minutes Each Day" in:
@@ -261,5 +463,114 @@
 - **Script URL:** `https://t.mybrilliant.app/v1/lst/universal-script`
 - **Parameters:** Includes page hash and reference URL tracking
 - Script loads after the page becomes interactive to avoid blocking page load
+
+## 2025-06-19 - Bold Modern Minimalist Design Transformation
+
+### Complete Design System Overhaul
+- Transformed from earth-tone brand colors to modern minimalist palette
+- Implemented clean white backgrounds with strategic black accents
+- Added bold blue-purple-pink gradient accents throughout
+- Removed all decorative background elements for clean, uncluttered look
+- Increased font sizes and improved typography hierarchy with light weights
+
+### Component Redesigns
+
+#### Hero Section
+- Removed explosive fluid art background for clean white background
+- Added bold geometric gradient accent bar at top
+- Increased headline to 6xl-8xl with light font weight
+- Simplified color scheme to gray-900 headlines, gray-600 body text
+- Enhanced spacing and breathing room
+
+#### SalesLetter Section
+- Clean white background with geometric accent
+- Massive headline typography (5xl-7xl) with light font weight
+- Simplified paragraph styling with increased font sizes
+- Removed all decorative elements for pure minimalism
+
+#### SeriesOverview Section
+- Light gray background (gray-50) for subtle section separation
+- Numbered circles instead of checkmarks for benefits
+- Clean card design with rounded corners and subtle shadows
+- Hover effects with smooth transitions and lift animations
+
+#### ProductFeatures Section
+- Bold black background for dramatic contrast
+- White icon containers with black icons
+- Clean center-aligned layout
+- Simplified typography with light font weights
+
+#### Pricing Section
+- Clean white background with black pricing card
+- Bold gradient badge (blue-purple) for visual interest
+- Numbered list items instead of checkmarks
+- Simplified guarantee section with clean icons
+
+#### Instructor Section
+- Light gray background for section separation
+- Larger image with rounded corners and shadow
+- Clean typography hierarchy with light font weights
+- Increased spacing and breathing room
+
+#### ValueProposition Section
+- Clean white background
+- Numbered items with large typography
+- Light gray cards with hover effects
+- Simplified layout and increased readability
+
+### CTA Button Enhancement
+- Bold gradient design (blue-purple-pink)
+- Larger padding and increased font size
+- Enhanced hover effects and shadows
+- Consistent across all sections
+
+### Typography System
+- Light font weights throughout (font-light)
+- Increased font sizes for better readability
+- Consistent gray color palette (gray-900, gray-600, gray-700)
+- Improved line heights and spacing
+
+### Mobile Responsiveness
+- Enhanced mobile typography scaling
+- Improved spacing on smaller screens
+- Consistent responsive behavior across all components
+
+### Design Philosophy
+- Embraced radical simplicity and negative space
+- Focused on content hierarchy through typography scale
+- Used contrast strategically (white/black/gradient accents)
+- Eliminated visual noise for improved user focus
+- Created breathing room with generous spacing
+- Implemented modern minimalist aesthetic principles
+
+## 2025-06-19 - Hero Headline Typography Enhancement
+
+### Hero Section Update
+- Made "Thinking Brilliantly" bold in the hero headline for emphasis
+- Changed from dynamic content to hardcoded text with styled span
+- Hero headline now reads: "Discover The Art of **Thinking Brilliantly**"
+- Creates visual hierarchy and draws attention to the core concept
+- Maintains overall light font weight while emphasizing key phrase
+
+## 2025-06-19 - Updated Testimonials with Authentic User Feedback
+
+### Testimonials Section Enhancement
+- Replaced generic testimonials with authentic user feedback
+- Selected three powerful transformation-focused quotes:
+  - Dorothy: "MOST important video... life changing... mind blowing... everlasting impact"
+  - Eric: "absolute game changer... breakthrough and transformation in life and relationships"
+  - Lisa: "makes me approach things differently... never thought about this perspective"
+- Testimonials now emphasize universal transformation, practical change, and breakthrough results
+- More authentic and impactful than previous generic testimonials
+- Aligns with bold, modern design aesthetic
+
+## 2025-06-19 - Updated Hero PreHeadline Copy
+
+### Hero Section Content Update
+- Changed preHeadline from "Move From Frustrated to Walking what's yours:" 
+- Updated to "Move From Frustrated to Walking in God's gift to you:"
+- Clearer messaging that explicitly connects transformation to God's gift
+- Better flow and more natural language
+- Emphasizes spiritual nature of the transformation
 
 ---

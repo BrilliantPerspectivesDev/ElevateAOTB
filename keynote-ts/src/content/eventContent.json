@@ -1,102 +1,118 @@
 {
   "announcementBanner": {
-    "message": "Free to Brilliant Movement Members | June 19-21, 2025 | Virtual Event",
-    "cta": "Secure my free ticket"
+    "message": "Special Elevate Package: Lifetime Access to 'The Art of Thinking Brilliantly' - Just $97",
+    "cta": "Get Instant Access"
   },
   "hero": {
-    "preHeadline": "Are you exhausted from trying to be better?",
-    "headline": "The 3 Permissions You Need to Live Limitlessly with God",
-    "dateLocation": "June 19-21, 2025 | 3-Day Virtual Event | 10am - 11:30am PST",
-    "intro": "Stop trying to fix who you were. Start being who you are in Christ. Join Graham Cooke and Team Brilliant as they reveal the three permissions that end the exhausting cycle of performance Christianity and open the door to the limitless life Jesus actually purchased for you.",
-    "countdownDate": "2025-06-19T17:00:00Z",
-    "cta": "Secure my free ticket"
+    "preHeadline": "Move From Frustrated to Walking in God's gift to you:",
+    "headline": "Discover The Art of Thinking Brilliantly",
+    "subtitle": "Stream Anytime, Anywhere",
+    "intro": "Discover the Kingdom Mindset That's Already Yours in Christ with Graham Cooke's transformative teaching series 'The Art of Thinking Brilliantly'",
+    "cta": "Start Streaming Now"
   },
   "salesLetter": {
-    "headline": "I'm So Tired of Trying to Be Better...",
+    "headline": "God Has Already Given You Something Extraordinary",
     "paragraphs": [
-      "If you've ever thought that - even for a moment - I want you to know something: That exhaustion isn't a failure. It's an invitation.",
-      "You're tired of the endless cycle: Falling back into old patterns you thought you'd overcome, feeling like you're not good enough for God's best, trying harder to be better but staying stuck in the same struggles, learning things that never seem to stick no matter how hard you try.",
-      "You know who you are in Christ... but you don't know how to live it out. You feel guilty when you rest, anxious about the future, and exhausted from trying to apply what you've learned through sheer willpower.",
-      "What if the problem isn't your commitment? What if you're just missing the right permissions?",
-      "Graham Cooke and Dionne van Zyl have walked this exact journey - from the exhaustion of performance Christianity to the rest of identity-based Kingdom living. They've discovered something revolutionary: You don't need to try harder. You need different permissions."
+      "You have the mind of Christ. Right now. Not someday when you're more spiritual, but today.",
+      "Yet most believers haven't discovered how to access this incredible gift. Graham Cooke has spent decades learning how Heaven thinks about life, problems, and possibilities - and in this 18-session series, he shares everything.",
+      "The invitation before you: Step into the brilliant thinking that's already yours. Learn to see every situation the way God sees it - full of possibility, promise, and provision."
     ],
-    "cta": "Secure my free ticket"
+    "cta": "Get Lifetime Access"
   },
-  "eventDays": [
-    {
-      "day": "Day 1",
-      "theme": "Permission to Be Your New Self",
-      "description": "Discover the permission God gave you to stop fixing your old self and start living as the new creation He made you to be. You'll learn to see yourself through God's eyes and practice stepping into the new self He completed in Christ."
-    },
-    {
-      "day": "Day 2", 
-      "theme": "Permission to Live Your New Life with God",
-      "description": "Experience the permission God provided to live from His rest and abundance rather than striving and lack. You'll learn practical ways to live your new life WITH God and discover how He designed partnership as your natural way of being."
-    },
-    {
-      "day": "Day 3",
-      "theme": "Permission to Learn Relationally with God", 
-      "description": "Discover how God delights in your learning and loves who you're becoming. You'll experience His joy in your growth and learn to recognize how He loves guiding you into all He has prepared, creating beautiful transformation through His delight in you."
-    }
-  ],
-
-  "speakers": {
-    "headline": "Meet Your Guides",
-    "subheading": "Leaders who've walked the journey from performance Christianity to Kingdom rest",
-    "people": [
-      {
-        "name": "Graham Cooke",
-        "role": "Founder & Primary Teacher",
-        "bio": "Graham spent years in the exhausting cycle of performance Christianity before discovering the permissions that changed everything. Author of over 40 books and trusted by thousands worldwide, Graham will help you see that God never asked you to fix yourself - He gave you permission to BE who He says you already are.",
-        "image": "/images/speakers/Graham.jpeg"
-      },
-      {
-        "name": "Dionne van Zyl",  
-        "role": "CEO & Leadership Expert",
-        "bio": "Dionne understands the struggle of knowing your identity but not knowing how to live it out. Through his own journey from striving to rest, he's developed practical methodologies for living from your new nature instead of working toward it. He'll show you exactly how to make this shift in your daily life.",
-        "image": "/images/speakers/Dionne.jpeg"
-      },
-      {
-        "name": "Ray Higdon",
-        "role": "Event Host & Leadership Expert", 
-        "bio": "Ray brings years of experience in creating transformational experiences and has a heart for helping people discover their true identity in Christ. As your host, he'll guide you through breakthrough moments and ensure you get the most out of each session.",
-        "image": "/images/speakers/Ray.jpeg"
-      }
+  "seriesOverview": {
+    "headline": "18 Transformative Sessions",
+    "subheading": "A Complete Journey Into Kingdom Thinking",
+    "totalDuration": "Over 24 hours of teaching",
+    "subheading2": "This Comprehensive Series Will Show You How To:",
+    "benefits": [
+      "Find Your Kingdom Starting Place - Learn to identify God's starting place in every situation that guarantees a victorious outcome",
+      "Recognize Your New Nature Voice - Discover how to distinguish between old patterns and your true identity in Christ",
+      "See Upgrades Everywhere - Understand how frustration signals that God has prepared something better",
+      "Live from Heaven's Perspective - Shift from earthly circumstances to Kingdom reality in your daily thinking",
+      "Access Hidden Provision - Make every situation yield the provision God has already attached to it",
+      "Practice Kingdom Routines - Develop daily practices that keep you thinking brilliantly"
     ],
-    "cta": "Secure my free ticket"
+    "cta": "Get Instant Access for $97"
   },
-  "ctaSection": {
-    "headline": "Ready to easily exchange exhaustion for rest?",
-    "description": "You don't have to spend another day trying to fix yourself. The three permissions that end the exhausting cycle are waiting to be discovered. Join Graham, Dionne, and Ray for three days where you'll learn to live from rest instead of striving and discover the relational way to grow with God. June 19-21, 2025 | 10am - 11:30am PST | Virtual Event",
-    "cta": "Secure my free ticket"
-  },
-  "testimonials": {
-    "smallHeading": "What Others Are Saying",
-    "mainHeading": "Lives Transformed by Permission-Based Living",
+  "productFeatures": {
+    "headline": "What's Included in Your Elevate Package",
     "items": [
       {
-        "quote": "The new perspective is mind blowing and the impact is everlasting.",
+        "feature": "Lifetime Streaming Access",
+        "description": "Watch all 18 sessions as many times as you want"
+      },
+      {
+        "feature": "18 Full Sessions",
+        "description": "Over 24 hours of transformative Kingdom teaching"
+      },
+      {
+        "feature": "Stream Anywhere",
+        "description": "Watch on any device with internet connection"
+      },
+      {
+        "feature": "Mobile Friendly",
+        "description": "Perfect for phone, tablet, or computer viewing"
+      },
+      {
+        "feature": "Session Notes",
+        "description": "Key quotes and insights from each teaching"
+      }
+    ],
+    "cta": "Get Instant Access for $97"
+  },
+  "instructor": {
+    "headline": "Learn from Graham Cooke",
+    "subheading": "Kingdom Theologian & Prophetic Voice",
+    "bio": {
+      "name": "Graham Cooke",
+      "role": "Founder, Brilliant Perspectives",
+      "description": "Graham has helped hundreds of thousands discover their true identity in Christ through 30+ books, founding Brilliant Perspectives and The Brilliant Movement, and training leaders on 6 continents in Kingdom living. His gift is making profound truths of Kingdom life accessible and immediately applicable.",
+      "image": "Graham.jpeg"
+    },
+    "cta": "Learn from Graham Today"
+  },
+  "valueProposition": {
+    "headline": "Why This Series Now?",
+    "paragraphs": [
+      "God is raising up a generation who thinks from Heaven's perspective. Every day, you have situations waiting to reveal God's goodness and provision.",
+      "This comprehensive 18-session series equips you to recognize and receive what He's already prepared. It's perfect for those new to Graham's teaching or anyone wanting to go deeper in understanding how Heaven thinks.",
+      "Special Elevate Introduction: Experience Graham's transformative teaching with lifetime streaming access for just $97 - a fraction of ongoing membership costs."
+    ],
+    "cta": "Claim Your Access"
+  },
+  "pricing": {
+    "headline": "Your Investment in Kingdom Thinking",
+    "price": "$97",
+    "priceNote": "One-time payment, lifetime streaming access",
+    "comparisonItems": [
+      "Less than $6 per session",
+      "Fraction of conference attendance",
+      "No monthly fees - stream forever"
+    ],
+    "guarantee": "Watch the first session risk-free. If it doesn't transform how you think, we'll refund your investment.",
+    "cta": "Get Instant Access Now"
+  },
+  "testimonials": {
+    "smallHeading": "Lives Transformed",
+    "mainHeading": "What Others Are Saying",
+    "items": [
+      {
+        "quote": "This is the MOST important video that a believer can watch. The points are life changing. The new perspective is mind blowing and the impact is everlasting.",
         "name": "Dorothy",
-        "handle": "Recalibration & Transformation",
-        "image": "dorothy.jpg"
+        "handle": "Believer",
+        "image": "testimonial-1.jpg"
       },
       {
-        "quote": "Every time I watch this glorious teaching it recalibrates and tunes me into the voice of the Lord.",
+        "quote": "Been an absolute game changer and have experienced so much breakthrough and transformation in life and relationships and rest.",
         "name": "Eric",
-        "handle": "Foundational Teaching",
-        "image": "eric.jpg"
+        "handle": "Movement Member",
+        "image": "testimonial-2.jpg"
       },
       {
-        "quote": "This series has been like a refreshing rain or a most delicious meal.",
-        "name": "Shirley",
-        "handle": "Refreshing Experience",
-        "image": "shirley.jpg"
-      },
-      {
-        "quote": "My soul is sweetly reset and my mind is at ease.",
-        "name": "Kelly",
-        "handle": "Empowering Moments",
-        "image": "kelly.jpg"
+        "quote": "This makes me approach things differently now. I never really thought about this perspective before.",
+        "name": "Lisa",
+        "handle": "Student",
+        "image": "testimonial-3.jpg"
       }
     ]
   },
@@ -104,24 +120,36 @@
     "heading": "Frequently Asked Questions",
     "items": [
       {
-        "question": "Is this event live or recorded?",
-        "answer": "All three days are live virtual sessions with Graham, Dionne, and Ray. You'll be able to interact, ask questions, and experience real-time breakthrough moments."
+        "question": "How do I access the series after purchase?",
+        "answer": "You'll receive immediate access to all 18 sessions through our streaming platform. Simply log in and start watching on any device with internet connection."
       },
       {
-        "question": "How is this different from other Christian conferences or teachings?",
-        "answer": "This event focuses specifically on permission-based living rather than performance Christianity. Instead of teaching you how to do more or be better, you'll discover the permissions you already have in Christ."
+        "question": "Is this different from BrilliantPlus membership?",
+        "answer": "Yes! This Elevate package gives you lifetime streaming access to this specific series for a one-time payment of $97, while BrilliantPlus is a monthly membership with access to our entire library."
       },
       {
-        "question": "Is this suitable for new believers?",
-        "answer": "Absolutely! This approach is especially helpful for those tired of performance Christianity and ready to discover what Kingdom living actually looks like."
+        "question": "Can I download the videos?",
+        "answer": "This is a streaming-only product. You'll need an internet connection to watch, but you can stream as many times as you want, forever."
       },
       {
-        "question": "What technology do I need to participate?",
-        "answer": "Just a computer, tablet, or smartphone with internet access. We'll send you all the connection details after registration."
+        "question": "Can I share this with my small group?",
+        "answer": "This purchase is for individual use. For group licenses, please contact our team for special pricing."
+      },
+      {
+        "question": "What if I want more after this series?",
+        "answer": "This series is a perfect introduction to Graham's teaching. Many people continue with Movement membership ($47/month) or explore BSOL for comprehensive Kingdom leadership training."
+      },
+      {
+        "question": "How long do I have access?",
+        "answer": "Forever! Once you purchase, you have lifetime access to stream all 18 sessions whenever you want."
+      },
+      {
+        "question": "Is there a money-back guarantee?",
+        "answer": "Yes! Watch the first session. If it doesn't transform how you think about Kingdom living, we'll refund your investment."
       }
     ]
   },
   "footer": {
-    "text": "Discover who God says you already are. © 2025 Brilliant Perspectives | All Rights Reserved"
+    "text": "© 2024 Brilliant Perspectives. Empowering believers to think brilliantly and live from their Kingdom identity."
   }
 } 

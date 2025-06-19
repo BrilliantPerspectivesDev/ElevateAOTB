@@ -1,50 +1,35 @@
 'use client'
 
-import { BackgroundImage } from '@/components/BackgroundImage'
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { CountdownTimer } from '@/components/CountdownTimer'
 import { GradientCTAButton } from '@/components/GradientCTAButton'
 import eventContent from '@/content/eventContent.json'
 import Image from 'next/image'
-import backgroundImage from '@/images/background-newsletter.png'
 
 export function Hero() {
   const hero = eventContent.hero;
   return (
-    <div className="relative w-full overflow-hidden">
-      {/* Abstract Blurred SVG Background */}
-      <svg
-        width="1200"
-        height="800"
-        viewBox="0 0 1200 800"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="absolute left-[-40%] top-1/2 -translate-y-1/2 z-0 pointer-events-none"
-        style={{ filter: 'blur(60px)', opacity: 0.7 }}
-        aria-hidden="true"
-      >
-        <ellipse cx="400" cy="360" rx="360" ry="240" fill="#A3D9C9" />
-        <ellipse cx="900" cy="500" rx="320" ry="200" fill="#E9C46A" />
-        <ellipse cx="700" cy="220" rx="200" ry="120" fill="#7CA982" />
-      </svg>
-      <div className="relative z-10 pt-24 pb-16">
+    <div className="relative w-full overflow-hidden bg-white">
+      {/* Bold geometric accent */}
+      <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500"></div>
+      
+      <div className="relative z-10 pt-24 pb-32 min-h-[90vh] flex items-center">
         <Container className="relative h-full flex flex-col justify-center">
-          <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12 text-center">
+          <div className="mx-auto max-w-5xl px-6 text-center">
             {hero.preHeadline && (
-              <div className="mb-4 text-lg font-semibold text-moss uppercase tracking-widest">{hero.preHeadline}</div>
+              <div className="mb-12 text-xl font-light text-gray-600">{hero.preHeadline}</div>
             )}
-            <h1 className="font-display text-5xl font-bold tracking-tighter text-bone sm:text-7xl">
-              <span className="sr-only">The 3 Permissions Event - </span>{hero.headline}
-            </h1>
-            <p className="mt-6 text-xl font-semibold text-ochre sm:text-2xl">{hero.dateLocation}</p>
-            <div className="mt-8 space-y-6 font-display text-2xl tracking-tight text-sand">
-              <p>{hero.intro}</p>
+                         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-light tracking-tight text-gray-900 leading-tight mb-12">
+               Discover The Art of <span className="font-bold">Thinking Brilliantly</span>
+             </h1>
+            {hero.subtitle && (
+              <p className="text-2xl sm:text-3xl text-gray-600 font-light mb-12 leading-relaxed max-w-4xl mx-auto">{hero.subtitle}</p>
+            )}
+            <div className="text-xl sm:text-2xl text-gray-600 font-light max-w-4xl mx-auto mb-16">
+              <p className="leading-relaxed">{hero.intro}</p>
             </div>
-            <div className="mt-6">
-              <GradientCTAButton href="https://brilliantperspectives.clickfunnels.com/optind6zcv83l" />
+            <div>
+              <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
             </div>
-            <CountdownTimer targetDate={hero.countdownDate} />
           </div>
         </Container>
       </div>

@@ -105,7 +105,7 @@ export function Speakers() {
           ))}
         </div>
         <div className="flex justify-center mt-16">
-          <GradientCTAButton href="https://brilliantperspectives.clickfunnels.com/optind6zcv83l" />
+          <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
         </div>
       </Container>
     </section>

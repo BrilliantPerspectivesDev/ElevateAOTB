@@ -1,21 +1,25 @@
 import { Hero } from '@/components/Hero'
-import { Speakers } from '@/components/Speakers'
-import { CTA } from '@/components/CTA'
 import { SalesLetter } from '@/components/SalesLetter'
-import { EventDays } from '@/components/EventDays'
-import { FAQ } from '@/components/FAQ'
+import { SeriesOverview } from '@/components/SeriesOverview'
+import { ProductFeatures } from '@/components/ProductFeatures'
+import { Instructor } from '@/components/Instructor'
+import { ValueProposition } from '@/components/ValueProposition'
+import { Pricing } from '@/components/Pricing'
 import { Testimonials } from '@/components/Testimonials'
-// import { AnnouncementBanner } from '@/components/AnnouncementBanner'
+import { FAQ } from '@/components/FAQ'
+import { AnnouncementBanner } from '@/components/AnnouncementBanner'
 
 export default function Home() {
   return (
     <>
-      {/* <AnnouncementBanner /> */}
+      <AnnouncementBanner />
       <Hero />
-      <EventDays />
       <SalesLetter />
-      <Speakers />
-      <CTA />
+      <SeriesOverview />
+      <ProductFeatures />
+      <Instructor />
+      <ValueProposition />
+      <Pricing />
       <Testimonials />
       <FAQ />
     </>

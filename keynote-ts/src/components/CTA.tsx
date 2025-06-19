@@ -32,7 +32,7 @@ export function CTA() {
             {cta.description}
           </p>
           <div className="mt-12 flex items-center justify-center gap-x-6">
-            <GradientCTAButton href="https://brilliantperspectives.clickfunnels.com/optind6zcv83l" />
+            <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
           </div>
         </div>
       </Container>

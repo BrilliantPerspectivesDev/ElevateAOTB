@@ -13,12 +13,12 @@ export function GradientCTAButton({ href, className }: GradientCTAButtonProps) {
     <Link
       href={href}
       className={clsx(
-        'inline-flex flex-col items-center justify-center rounded-full bg-black px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2',
+        'inline-flex flex-col items-center justify-center rounded-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 hover:from-blue-700 hover:via-purple-700 hover:to-pink-600 px-12 py-6 text-xl font-medium text-white shadow-2xl transition-all duration-300 hover:shadow-3xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2',
         className
       )}
     >
-      <span>Secure my free ticket</span>
-      <span className="block text-xs font-normal mt-1 text-white opacity-80">June 19–21, 2025 · 10am - 11:30am PST · Virtual</span>
+      <span>Get Instant Access for $97</span>
+      <span className="block text-sm font-light mt-1 text-white/90">Lifetime streaming access</span>
     </Link>
   )
 } 
