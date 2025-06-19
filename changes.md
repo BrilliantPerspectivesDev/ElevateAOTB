@@ -198,6 +198,15 @@
 - New page order: AnnouncementBanner → Hero → EventDays → SalesLetter → Speakers → CTA → TestimonialsCarousel → FAQ
 - This provides users with an immediate overview of the event structure right after the hero introduction.
 
+## [Date: 2024-12-19] Fixed Deployment Build Errors
+
+- **Fixed Missing ctaSection Error**: Added missing `ctaSection` object to `eventContent.json` with `headline` and `description` properties that the CTA.tsx component was trying to access
+- **Fixed ESLint Warning**: Replaced `<img>` tag with Next.js `<Image>` component in Speakers.tsx (line 93) to resolve the "Using `<img>` could result in slower LCP" warning
+- **Files Modified**: 
+  - `keynote-ts/src/content/eventContent.json` - Added ctaSection with headline "Ready to Transform Your Thinking?" and description
+  - `keynote-ts/src/components/Speakers.tsx` - Replaced img tag with Image component using fill prop for responsive image handling
+- **Reason**: Deployment was failing due to TypeScript error where CTA component couldn't find eventContent.ctaSection property, and ESLint warning about performance optimization
+
 ## [Date: 2024-06-12] Fixed Hero Background Image and Enhanced Design
 
 **Background Image Fix:**

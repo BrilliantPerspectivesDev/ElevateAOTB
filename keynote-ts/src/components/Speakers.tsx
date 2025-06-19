@@ -90,10 +90,11 @@ export function Speakers() {
             <div key={person.name} className="w-full md:w-1/2 lg:w-1/4 flex justify-center">
               <div className="bg-bone rounded-3xl shadow-lg flex flex-col items-center p-10 h-full w-full">
                 <div className="w-full aspect-square relative mb-8">
-                  <img
+                  <Image
                     src={person.image}
                     alt={person.name}
-                    className="object-cover rounded-2xl w-full h-full"
+                    fill
+                    className="object-cover rounded-2xl"
                     style={{ objectFit: 'cover' }}
                   />
                 </div>
