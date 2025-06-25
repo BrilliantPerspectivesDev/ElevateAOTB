@@ -4,7 +4,7 @@ import eventContent from '@/content/eventContent.json'
 
 export function ValueProposition() {
   const valueProposition = eventContent.valueProposition;
-  
+
   return (
     <section id="value-proposition" aria-label="Value Proposition" className="py-32 sm:py-40 bg-white">
       <Container>
@@ -14,7 +14,7 @@ export function ValueProposition() {
               {valueProposition.headline}
             </h2>
           </div>
-          
+
           <div className="space-y-12 max-w-3xl mx-auto">
             {valueProposition.paragraphs.map((paragraph, index) => (
               <p key={index} className="text-xl sm:text-2xl leading-relaxed text-gray-600 font-light">
@@ -22,12 +22,12 @@ export function ValueProposition() {
               </p>
             ))}
           </div>
-          
+
           <div className="mt-20 text-center">
-            <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+            <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
           </div>
         </div>
       </Container>
     </section>
   )
-} 
+}

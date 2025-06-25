@@ -4,7 +4,7 @@ import eventContent from '@/content/eventContent.json'
 
 export function SeriesOverview() {
   const seriesOverview = eventContent.seriesOverview;
-  
+
   return (
         <section id="series-overview" aria-label="Series Overview" className="py-32 sm:py-40 bg-gray-50">
       <Container>
@@ -21,12 +21,12 @@ export function SeriesOverview() {
               {seriesOverview.totalDuration}
             </div>
           </div>
-          
+
           <div className="mb-16">
             <h3 className="text-3xl font-light text-gray-900 text-center mb-16">
               {seriesOverview.subheading2}
             </h3>
-            
+
             {/* Clean benefits list */}
             <div className="grid gap-8 max-w-4xl mx-auto">
               {seriesOverview.benefits.map((benefit, index) => (
@@ -40,14 +40,14 @@ export function SeriesOverview() {
                 </div>
               ))}
             </div>
-            
+
             {/* Clean CTA */}
             <div className="mt-20 text-center">
-              <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+              <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
             </div>
           </div>
         </div>
       </Container>
     </section>
   )
-} 
+}

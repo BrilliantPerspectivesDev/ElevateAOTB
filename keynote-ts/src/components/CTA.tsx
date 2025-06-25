@@ -32,10 +32,10 @@ export function CTA() {
             {cta.description}
           </p>
           <div className="mt-12 flex items-center justify-center gap-x-6">
-            <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+            <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
           </div>
         </div>
       </Container>
     </div>
   )
-} 
+}

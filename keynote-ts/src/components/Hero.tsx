@@ -11,7 +11,7 @@ export function Hero() {
     <div className="relative w-full overflow-hidden bg-white">
       {/* Bold geometric accent */}
       <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500"></div>
-      
+
       <div className="relative z-10 pt-24 pb-32 min-h-[90vh] flex items-center">
         <Container className="relative h-full flex flex-col justify-center">
           <div className="mx-auto max-w-5xl px-6 text-center">
@@ -28,7 +28,7 @@ export function Hero() {
               <p className="leading-relaxed">{hero.intro}</p>
             </div>
             <div>
-              <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+              <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
             </div>
           </div>
         </Container>

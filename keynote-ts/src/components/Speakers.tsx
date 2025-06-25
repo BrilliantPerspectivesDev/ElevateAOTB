@@ -104,7 +104,7 @@ export function Speakers() {
           </div>
         </div>
         <div className="flex justify-center mt-16">
-          <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+          <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
         </div>
       </Container>
     </section>

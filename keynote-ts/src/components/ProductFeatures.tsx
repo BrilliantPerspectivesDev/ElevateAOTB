@@ -5,7 +5,7 @@ import { CheckCircleIcon, PlayCircleIcon, DevicePhoneMobileIcon, CloudIcon, Docu
 
 const featureIcons = [
   CheckCircleIcon,
-  PlayCircleIcon, 
+  PlayCircleIcon,
   CloudIcon,
   DevicePhoneMobileIcon,
   DocumentTextIcon
@@ -13,7 +13,7 @@ const featureIcons = [
 
 const featureColors = [
   'from-moss to-celadon',
-  'from-ochre to-sand', 
+  'from-ochre to-sand',
   'from-celadon to-moss',
   'from-sand to-ochre',
   'from-moss to-sand'
@@ -21,7 +21,7 @@ const featureColors = [
 
 export function ProductFeatures() {
   const productFeatures = eventContent.productFeatures;
-  
+
   return (
     <section id="product-features" aria-label="Product Features" className="py-32 sm:py-40 bg-black text-white">
       <Container>
@@ -31,11 +31,11 @@ export function ProductFeatures() {
               {productFeatures.headline}
             </h2>
           </div>
-          
+
           <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
             {productFeatures.items.map((item, index) => {
               const IconComponent = featureIcons[index] || CheckCircleIcon;
-              
+
               return (
                 <div key={index} className="group text-center">
                   <div className="mb-6 flex justify-center">
@@ -43,7 +43,7 @@ export function ProductFeatures() {
                       <IconComponent className="w-8 h-8 text-black" />
                     </div>
                   </div>
-                  
+
                   <h3 className="text-2xl font-light text-white mb-4">
                     {item.feature}
                   </h3>
@@ -54,13 +54,13 @@ export function ProductFeatures() {
               );
             })}
           </div>
-          
+
           {/* Clean CTA */}
           <div className="mt-20 text-center">
-            <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+            <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
           </div>
         </div>
       </Container>
     </section>
   )
-} 
+}

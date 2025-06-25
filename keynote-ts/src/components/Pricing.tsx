@@ -5,7 +5,7 @@ import { CheckCircleIcon, ShieldCheckIcon } from '@heroicons/react/24/solid'
 
 export function Pricing() {
   const pricing = eventContent.pricing;
-  
+
   return (
     <section id="pricing" aria-label="Pricing" className="py-32 sm:py-40 bg-white">
       <Container>
@@ -16,7 +16,7 @@ export function Pricing() {
               {pricing.headline}
             </h2>
           </div>
-          
+
           {/* Pricing card */}
           <div className="max-w-2xl mx-auto">
             <div className="bg-black text-white rounded-3xl overflow-hidden shadow-2xl">
@@ -26,7 +26,7 @@ export function Pricing() {
                   Limited Time Offer
                 </p>
               </div>
-              
+
               <div className="p-12">
                 {/* Price display */}
                 <div className="text-center mb-12">
@@ -49,7 +49,7 @@ export function Pricing() {
                     {pricing.priceNote}
                   </p>
                 </div>
-                
+
                 {/* Value comparison */}
                 <div className="space-y-6 mb-12">
                   {pricing.comparisonItems.map((item, index) => (
@@ -63,12 +63,12 @@ export function Pricing() {
                     </div>
                   ))}
                 </div>
-                
+
                 {/* CTA Button */}
                 <div className="text-center mb-12">
-                  <GradientCTAButton href="https://deals.brilliantperspectives.com/optin1750344852174" />
+                  <GradientCTAButton href="https://deals.brilliantperspectives.com/brilliantlythinking" />
                 </div>
-                
+
                 {/* Guarantee section */}
                 <div className="text-center p-8 bg-gray-900 rounded-2xl">
                   <div className="flex items-center justify-center gap-3 mb-4">
@@ -92,4 +92,4 @@ export function Pricing() {
       </Container>
     </section>
   )
-} 
+}
